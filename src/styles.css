@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+.list-margin>li{
+	margin-bottom: 1%;
+}
+.sppu-nav-tabs[_ngcontent-c0]{
+	letter-spacing:0 !important;
+}
+.tab-padding{
+	padding-left:11.5px !important;
+	padding-right:11.5px !important;
+}
+.icon-margin{
+	margin-right:2%;
+}
+.ach-td1{
+	background-color:#F5DEB3;
+	vertical-align:top;
+	padding:1%;
+	font-weight:bold;
+	border:1px solid lightgray;
+}
+.ach-td2{
+	background-color:#FFF5EE;
+	vertical-align:top;
+	padding:1%;
+	font-weight:bold;
+	border:1px solid lightgray;
+}

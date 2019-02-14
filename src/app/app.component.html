@@ -1,0 +1,71 @@
+<div style="padding: 2em; background-color: #020225; height: 2056px;">
+<div class="wrapper" style="background-color:white">
+  <div id="page">
+    <div>
+      <div class="container-fluid containerHead">
+        <div class="row">
+            <div class="row">
+                <div class="col-md-12">
+                <table width="100%">
+                  <tr>
+                    <td style="padding-left: 4%;padding-right: 2%;padding-top: 4%;"><img src="assets/img/logo.png" /></td>
+                    <td style="padding-top: 4%;"><img src="assets/img/banner4.jpg" /></td>
+                  </tr>
+                </table>
+                </div>
+              </div>
+        </div>
+  
+        <div class="row" style="padding-top: 5%">
+          <div id="access2" role="navigation">
+            <ul class="nav nav-tabs mvr-nav-tabs" style="padding-left: 35px;">
+                <li role="presentation" [routerLinkActive]="['active']">
+                    <a routerLink="home" class="tab-padding" style="width: 150px">
+                      Home</a>
+                  </li>
+              <li role="presentation" [routerLinkActive]="['active']">
+                <a routerLink="about" class="tab-padding" style="width: 150px">
+                  About Us</a>
+              </li>
+              <li role="presentation" [routerLinkActive]="['active']">
+                <a routerLink="services" class="tab-padding" style="width: 150px">
+                  Services</a>
+              </li>
+              <li role="presentation" [routerLinkActive]="['active']">
+                <a routerLink="clients" class="tab-padding" style="width: 150px">
+                  Clients</a>
+              </li>
+              <li role="presentation" [routerLinkActive]="['active']">
+                  <a routerLink="resources" class="tab-padding" style="width: 150px">
+                    Resources</a>
+                </li>
+              <li role="presentation" [routerLinkActive]="['active']">
+                <a routerLink="contact" class="tab-padding" style="width: 150px">
+                  Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div id="page_footer">
+    <div>
+        <span class="divLeft"><img src="assets/img/footerlogo.png"></span><span class="container divRight"><img src="assets/img/footerbg.png" style="padding-top: 5.9%; margin-left: 142px;margin-top: 53px;"/> 
+            <div class="text" style="padding-top: 5%; width: 450px; margin-left: 400px; margin-top: 30px;">Copyright © 2019 Chartered Accountant Company. All rights reserved.
+              <span> 
+                  <a class="qlinks" routerLink="home">Home</a> <span style="color: white;">|</span>
+                  <a class="qlinks" routerLink="about">About Us</a> <span style="color: white;">|</span>
+                  <a class="qlinks" routerLink="services"> Services </a> <span style="color: white;">|</span>
+                  <a class="qlinks" routerLink="clients"> Clients </a> <span style="color: white;">|</span>
+                  <a class="qlinks" routerLink="contact"> Contact Us </a> 
+                </span>
+            </div>
+          </span>
+  </div>
+</div>
+</div>
+</div>
